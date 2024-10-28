@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+#root {
+  max-width: 100%;
+  min-height: 100vh;
+}
+
+
+.h-100-vh {
+  height: 100vh;
+}
+
+.h-80-vh {
+  height: 80vh;
+}
+
+.w-90 {
+  width: 90%;
+}
+.w-80 {
+  width: 80%;
+}
+.w-70 {
+  width: 70%;
+}
+.w-60 {
+  width: 60%;
+}
+
+.rounded-lg {
+  border-radius: 18px;
+}
+
+.rounded-xlg {
+  border-radius: 20pc;
+}
+
+.image {
+  width: 100%;
+    height: 100%;
+    object-fit: cover; /* Cobre a div sem distorcer */
+    object-position: center;
+}
+
+.image-gui {
+  background-image: url(../public/images/gui.jpg);
+
+  background-size: cover;
+  background-position: center center;
+
+}
+
+.image-cougar {
+  background-image: url(../public/images/Mask\ group.png);
+
+  background-size: cover;
+  background-position: center start;
+
+  cursor: pointer;
+  transition: 0.5s ease;
+
+  overflow: hidden;
+  position: relative;
+}
+
+.image-future-bank {
+  background-image: url(../public/images/future.jpeg);
+
+  background-size: cover;
+  background-position: center center;
+
+  cursor: pointer;
+  transition: 0.5s ease;
+
+  overflow: hidden;
+  position: relative;
+}
+
+.image-cougar:hover {
+  filter: blur(.5);
+}
+
+.elemento-de-dentro {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.image-cougar:hover .elemento-de-dentro, .image-future-bank:hover .elemento-de-dentro {
+  opacity: 1;
+}
+
+
+.grey-bg-color {
+  background-color: #232323;
+}
+
+
+
+@media (min-width: 769px) {
+  .image-cougar:hover {
+
+    width: 45%;
+    filter:  contrast(110%) brightness(1px);
+  }
+  .image-future-bank:hover {
+    width: 45%;
+    filter:  contrast(110%) brightness(1px);
+  }
+}
+
+.gradient {
+  background: linear-gradient(
+    45deg, 
+    #f1f1f1, 
+    #b394b6e0);
+}
+
+
+.width-calc {
+  width: calc(50% );
+}
+
+.preencher-div {
+  padding-top: 40%;
+}
+
+@media (max-width: 769px) {
+  .preencher-div {
+
+    padding-top: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+/* cores de background */
+
+.bg-cougar {
+  background-color: #160100;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 769px) {
+  .image-gui-md {
+    background-image: url(../public/images/gui.jpg);
+  
+    background-size: cover;
+    background-position: center center;
+    padding-top: 100%;
+  }
+
+}
+
+
+
+/* Tamanhos padrão para a fonte */
+.fs-1 {
+  font-size: 2.5rem; /* ou 40px */
+}
+
+.fs-2 {
+  font-size: 2rem; /* ou 32px */
+}
+
+.fs-3 {
+  font-size: 1.75rem; /* ou 28px */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Query para telas médias (≥768px) */
+@media (min-width: 768px) {
+  .fs-md-1 {
+      font-size: 2rem !important; /* ou 32px */ 
+  }
+
+  .fs-md-2 {
+      font-size: 1.75rem !important; /* ou 28px */ 
+  }
+
+  .fs-md-3 {
+      font-size: 1.5rem; /* ou 24px */
+  }
+}
+
+/* Media Query para telas grandes (≥992px) */
+@media (min-width: 992px) {
+  .fs-lg-1 {
+      font-size: 1.75rem; /* ou 28px */
+  }
+
+  .fs-lg-2 {
+      font-size: 1.5rem; /* ou 24px */
+  }
+
+  .fs-lg-3 {
+      font-size: 1.25rem; /* ou 20px */
+  }
+
+  .w-lg-80 {
+    width: 80% !important;
+  }
+}
+
+/* Media Query para telas extra grandes (≥1200px) */
+@media (min-width: 1200px) {
+  .fs-xl-1 {
+      font-size: 1.5rem; /* ou 24px */
+  }
+
+  .fs-xl-2 {
+      font-size: 1.25rem; /* ou 20px */
+  }
+
+  .fs-xl-3 {
+      font-size: 1rem; /* ou 16px */
+  }
+}
+
