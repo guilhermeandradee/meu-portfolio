@@ -11,7 +11,7 @@ const Projects = () => {
                     <div className="elemento-de-dentro w-100  p-4 bg-cougar text-light">
                         <h2 className="">Cougar</h2>
 
-                        <p className="mt-3">Um poderoso webservice criado para analistas de suporte e helpdesk que utiliza IA generativa (integração OpenAI) e o poderoso algoritmo TF-IDF para automatizar a busca por soluções de problemas da empresa. </p>
+                        <p className="mt-3">A powerful webservice created for support and helpdesk analysts that uses generative AI (OpenAI integration) and the powerful TF-IDF algorithm to automate the search for solutions to company problems. </p>
                     </div>
                 </div>
 
@@ -19,7 +19,7 @@ const Projects = () => {
                     <div className="elemento-de-dentro w-100  p-4 bg-cougar text-light">
                         <h2 className="">Future Bank</h2>
 
-                        <p className="mt-3">Uma simulação de banco virtual construído em Java com arquitetura de miroservices, utiliza JsonWebToken para authenticação, armazena informações como email, cpf, senha e saldo em conta. Ao se cadastrar pela primeira vez o usuário recebe um email de boas vindas. <br /> <br />* Por se tratar de um serviço de hospedagem gratuito, a aplicação pode demorar até 3 minutos para gerar requisições</p>
+                        <p className="mt-3">A virtual bank simulation built in Java with miroservices architecture, uses JsonWebToken for authentication, stores information such as email, social security number, password and account balance. When registering for the first time, the user receives a welcome email. <br /> <br />* As it is a free hosting service, the application can take up to 3 minutes to generate requests</p>
                     </div>
                 </div>
 
