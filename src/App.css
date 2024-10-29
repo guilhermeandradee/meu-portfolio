@@ -97,6 +97,21 @@
   background-color: #232323;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.button-contact {
+  cursor: pointer;
+  transition: .3s ease;
+  
+}
+.button-contact:hover {
+  background-color: #542156 !important;
+  color: #fff;
+}
+
+
 
 
 @media (min-width: 769px) {
@@ -145,7 +160,7 @@
 /* cores de background */
 
 .bg-cougar {
-  background-color: #160100;
+  background-color: #221d1d;
 }
 
 
