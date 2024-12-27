@@ -1,8 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 #root {
   max-width: 100%;
   min-height: 100vh;
+}
+
+.font-ralewey {
+  font-family: 'Raleway';
+}
+
+.font-Rubik {
+  font-family: 'Rubik';
 }
 
 
@@ -76,7 +86,36 @@
   position: relative;
 }
 
+.image-livechat {
+  background-image: url(../public/images/mask.png);
+
+  background-size: cover;
+  background-position: center center;
+
+  cursor: pointer;
+  transition: 0.5s ease;
+
+  overflow: hidden;
+  position: relative;
+}
+.image-comingsoon {
+  background-image: url(../public/images/vemvem2.png);
+
+  background-size: cover;
+  background-position: center center;
+
+  cursor: pointer;
+  transition: 0.5s ease;
+
+  overflow: hidden;
+  position: relative;
+}
+
 .image-cougar:hover {
+  filter: blur(.5);
+}
+
+.image-livechat:hover {
   filter: blur(.5);
 }
 
@@ -88,7 +127,7 @@
   transition: opacity 0.3s ease;
 }
 
-.image-cougar:hover .elemento-de-dentro, .image-future-bank:hover .elemento-de-dentro {
+.image-cougar:hover .elemento-de-dentro, .image-future-bank:hover .elemento-de-dentro, .image-livechat:hover .elemento-de-dentro, .image-comingsoon:hover .elemento-de-dentro{
   opacity: 1;
 }
 
@@ -121,6 +160,10 @@
     filter:  contrast(110%) brightness(1px);
   }
   .image-future-bank:hover {
+    width: 45%;
+    filter:  contrast(110%) brightness(1px);
+  }
+  .image-livechat:hover {
     width: 45%;
     filter:  contrast(110%) brightness(1px);
   }
@@ -160,7 +203,12 @@
 /* cores de background */
 
 .bg-cougar {
-  background-color: #221d1d;
+  /* background-color: #221d1d; */
+  /* background-color: #ba87be; */
+  background: linear-gradient(
+    45deg,
+    #d3a5ca, 
+    #b394b6f8);
 }
 
 

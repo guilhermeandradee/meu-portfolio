@@ -13,10 +13,10 @@ const Presentation = () => {
             <div className="row w-100 justify-content-center px-md-5 px-3 px-sm-4 flex-md-row flex-column-reverse">
                 <div className="col-md-7 col-12 me-md-3 rounded-lg py-4 gradient px-5" style={{backgroundColor: '#F0F0F0'}}>
                     <div className="w-100 mb-5">
-                        <h1 className="w-100 text-start fs-5 fs-md-2">Hello, I’m Guilherme, a Software Engineer in São Paulo.</h1>
+                        <h1 className="w-100 text-start fs-5 fs-md-2">Hello, I'm Guilherme Software Engineer and Web Developer</h1>
                     </div>
 
-                    <p className="mb-5 fs-6">I care a lot about using tecnologie for generate results. and enjoy creating applications that change the present and future.</p>
+                    <p className="mb-5 fs-6">I have been developing in different languages ​​and technologies for 3 years, today I have Java as my main language in backend development.</p>
 
                     <nav className="row mt-5">
                         <div className="col-md-4 col-12 rounded-xlg d-flex justify-content-center align-items-center m-0 p-lg-2 p-md-1 p-2 mb-md-0 mb-3 text-light text-center button-contact" style={{backgroundColor: '#1D1D1D'}} >Contact me</div>
